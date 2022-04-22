@@ -4,6 +4,10 @@ import java.util.List;
 
 public class Client {
 
+    // walkAllDogs(List<Dog)
+    // walkAll Cat(List<Cat)
+
+
     private static void walkAllAnimals(List<Animal> animals) {
         for (Animal animal: animals) {
             animal.walk();
