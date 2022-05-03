@@ -5,12 +5,12 @@ import designpatterns.factory.after.base.ThemeComponentFactory;
 
 public class IOSUITheme extends IOSUIThemeComponentFactory {
 
-    @Override
+
     public ThemeComponentFactory createThemeComponentFactory() {
         return new IOSUIThemeComponentFactory();
     }
 
-    @Override
+
     public boolean changePrimaryColor() {
         return false;
     }

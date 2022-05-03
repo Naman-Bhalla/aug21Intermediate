@@ -11,7 +11,8 @@ public class ThemeFactory {
         if (themeName.equals("material")) {
             return new MaterialUITheme();
         } else {
-            return new IOSUITheme();
+//            return new IOSUITheme();
+            return null;
         }
     }
 }
